@@ -158,12 +158,25 @@ main {
 
 /* SECCION DE TABLE */
 /*****************************************************************/
+
+/* SECCION SCROLL HORIZONTAL TABLES */
+
+.main-tables-container {
+    display: flex;
+    height: 380px;
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+    overscroll-behavior-x: contain;
+}
+/***************************************************************/
+
 .main-currency-table {
     width: 70%;
+    scroll-snap-align: center;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin: 0 auto;
+    margin: 0 40px auto;
     font-family: 'Inter', sans-serif;
 }
 
