@@ -451,7 +451,7 @@ main {
 /* SECCION DEL SCROLL */
 /********************************************************************/
 
-.plans-contaier--slider {
+.plans-container--slider {
     display: flex;
     height: 316px;
     overflow-x: scroll;
